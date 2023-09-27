@@ -16,7 +16,6 @@
 
 .bgr-header{
     background-color: #255ee9;
-
 }
 
 #logo{
@@ -169,5 +168,78 @@ minHeight container d-flex py-64
     padding: 8px 16px;
     font-size: 20px;
     margin: 0 8px;
+
+}
+
+footer{
+    background-color:#23272a;
+
+}
+
+.footer-top{
+    min-height: 300px;
+    max-width: 1100px;
+	margin: 0 auto;
+    display: flex;
+    padding: 64px 0;
+}
+
+
+
+.column-1{
+    margin: 0 auto;
+    color: #255ee9;
+    width: 20%;
+}
+
+h3{
+    font-size: 37px;
+    margin-bottom: 40px
+}
+
+.column-2{
+    margin: 0 auto;
+    color: #255ee9;
+    min-width: 12%;
+}
+
+.flag{
+    width: 1.5em;
+}
+
+
+#color-white{
+    color: white;
+}
+
+.colonna-footer{
+    flex-direction: column;
+    line-height: 40px;
+    color: white;
+}
+
+#brg-color{
+    color: #255ee9;
+}
+
+.barra-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo2{
+    padding: 10px;
+    align-items: center;
+}
+
+.button-footer{
+    background-color: #a7b6e6;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
 
 }
